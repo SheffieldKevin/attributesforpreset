@@ -9,6 +9,9 @@
 @import Foundation;
 @import AVFoundation;
 
+// The following method definitions pulled from:
+// https://github.com/billinghamj/iPhone6-iOS8-RuntimeHeaders/blob/master/Frameworks/AVFoundation.framework/AVAssetExportSession.h
+
 @interface AVAssetExportSession ()
 
 + (id)_settingForPreset:(id)arg1;
