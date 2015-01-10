@@ -1,0 +1,442 @@
+================================================
+AVAssetExportPresetAppleM4VWiFi
+{
+    Audio =     {
+        audioPreset = "Preset_AAC_48kHz_Stereo_128kbit";
+    };
+    Video =     {
+        colorPrimaries = "SMPTE_C";
+        dataRateLimitBytes = 249600;
+        dataRateLimitDuration = "2.59999990463257";
+        frameDurationTimeScale = 30;
+        frameDurationValue = 1;
+        frameReordering = 0;
+        keyFrameInterval = 30;
+        maxFrameRate = 30;
+        maxHeight = 360;
+        maxWidth = 480;
+        profileLevel = "H264_Baseline_1_3";
+        transferFunction = "ITU_R_709_2";
+        usageMode = 8;
+        videoAverageBitRate = 921600;
+        videoCodec = 1635148593;
+        videoMatrixHandling = ApplyRotation;
+        ycbcrMatrix = "ITU_R_601_4";
+    };
+}
+Codec: 1635148593
+kCMVideoCodecType_H264
+================================================
+AVAssetExportPresetAppleM4V480pSD
+{
+    Audio =     {
+        audioPreset = "Preset_AAC_48kHz_Stereo_160kbit";
+    };
+    Video =     {
+        colorPrimaries = "SMPTE_C";
+        dataRateLimitBytes = 1069600;
+        dataRateLimitDuration = "2.59999990463257";
+        frameDurationTimeScale = 30;
+        frameDurationValue = 1;
+        frameReordering = 1;
+        keyFrameInterval = 30;
+        maxFrameRate = 30;
+        maxHeight = 480;
+        maxWidth = 640;
+        profileLevel = "H264_Main_3_0";
+        transferFunction = "ITU_R_709_2";
+        usageMode = 7;
+        videoAverageBitRate = 3145728;
+        videoCodec = 1635148593;
+        videoMatrixHandling = PreserveMatrix;
+        ycbcrMatrix = "ITU_R_601_4";
+    };
+}
+Codec: 1635148593
+kCMVideoCodecType_H264
+================================================
+AVAssetExportPresetAppleM4V1080pHD
+{
+    Audio =     {
+        audioPreset = "Preset_AAC_48kHz_Stereo_256kbit";
+    };
+    Video =     {
+        colorPrimaries = "ITU_R_709_2";
+        frameDurationTimeScale = 30;
+        frameDurationValue = 1;
+        frameReordering = 1;
+        keyFrameInterval = 30;
+        maxFrameRate = 30;
+        maxHeight = 1080;
+        maxWidth = 1920;
+        profileLevel = "H264_Main_AutoLevel";
+        transferFunction = "ITU_R_709_2";
+        usageMode = 0;
+        videoAverageBitRate = 10485760;
+        videoCodec = 1635148593;
+        videoMatrixHandling = PreserveMatrix;
+        ycbcrMatrix = "ITU_R_709_2";
+    };
+}
+Codec: 1635148593
+kCMVideoCodecType_H264
+================================================
+AVAssetExportPresetAppleM4VCellular
+{
+    Audio =     {
+        audioPreset = "Preset_AACHE_32kHz_Stereo_36kbit";
+    };
+    Video =     {
+        colorPrimaries = "SMPTE_C";
+        frameDurationTimeScale = 10;
+        frameDurationValue = 1;
+        frameReordering = 0;
+        keyFrameInterval = 30;
+        maxFrameRate = 10;
+        maxHeight = 300;
+        maxWidth = 400;
+        profileLevel = "H264_Baseline_1_2";
+        transferFunction = "ITU_R_709_2";
+        usageMode = 5;
+        videoAverageBitRate = 225280;
+        videoCodec = 1635148593;
+        videoMatrixHandling = ApplyRotation;
+        ycbcrMatrix = "ITU_R_601_4";
+    };
+}
+Codec: 1635148593
+kCMVideoCodecType_H264
+================================================
+AVAssetExportPreset1920x1080
+{
+    Audio =     {
+        audioPreset = "Preset_AAC_48kHz_256kbit";
+    };
+    Video =     {
+        colorPrimaries = "ITU_R_709_2";
+        entropyMode = CABAC;
+        frameDurationTimeScale = 30;
+        frameDurationValue = 1;
+        frameReordering = 1;
+        keyFrameInterval = 30;
+        maxHeight = 1080;
+        maxWidth = 1920;
+        profileLevel = "H264_High_AutoLevel";
+        transferFunction = "ITU_R_709_2";
+        usageMode = 0;
+        videoAverageBitRate = 10485760;
+        videoCodec = 1635148593;
+        videoMatrixHandling = ApplyRotation;
+        ycbcrMatrix = "ITU_R_709_2";
+    };
+}
+Codec: 1635148593
+kCMVideoCodecType_H264
+================================================
+AVAssetExportPreset1280x720
+{
+    Audio =     {
+        audioPreset = "Preset_AAC_48kHz_256kbit";
+    };
+    Video =     {
+        colorPrimaries = "ITU_R_709_2";
+        frameDurationTimeScale = 30;
+        frameDurationValue = 1;
+        frameReordering = 1;
+        keyFrameInterval = 30;
+        maxHeight = 720;
+        maxWidth = 1280;
+        profileLevel = "H264_Main_AutoLevel";
+        transferFunction = "ITU_R_709_2";
+        usageMode = 0;
+        videoAverageBitRate = 7340032;
+        videoCodec = 1635148593;
+        videoMatrixHandling = ApplyRotation;
+        ycbcrMatrix = "ITU_R_709_2";
+    };
+}
+Codec: 1635148593
+kCMVideoCodecType_H264
+================================================
+AVAssetExportPreset640x480
+{
+    Audio =     {
+        audioPreset = "Preset_AAC_48kHz_256kbit";
+    };
+    Video =     {
+        colorPrimaries = "SMPTE_C";
+        frameDurationTimeScale = 30;
+        frameDurationValue = 1;
+        frameReordering = 1;
+        keyFrameInterval = 30;
+        maxHeight = 480;
+        maxWidth = 640;
+        profileLevel = "H264_Main_AutoLevel";
+        transferFunction = "ITU_R_709_2";
+        usageMode = 0;
+        videoAverageBitRate = 3145728;
+        videoCodec = 1635148593;
+        videoMatrixHandling = ApplyRotation;
+        ycbcrMatrix = "ITU_R_601_4";
+    };
+}
+Codec: 1635148593
+kCMVideoCodecType_H264
+================================================
+AVAssetExportPresetAppleM4ViPod
+{
+    Audio =     {
+        audioPreset = "Preset_AAC_48kHz_Stereo_128kbit";
+    };
+    Video =     {
+        colorPrimaries = "SMPTE_C";
+        dataRateLimitBytes = 534800;
+        dataRateLimitDuration = "2.59999990463257";
+        frameDurationTimeScale = 30;
+        frameDurationValue = 1;
+        frameReordering = 0;
+        keyFrameInterval = 30;
+        maxFrameRate = 30;
+        maxHeight = 480;
+        maxWidth = 640;
+        profileLevel = "H264_Baseline_3_0";
+        transferFunction = "ITU_R_709_2";
+        usageMode = 6;
+        videoAverageBitRate = 1572864;
+        videoCodec = 1635148593;
+        videoMatrixHandling = ApplyRotation;
+        ycbcrMatrix = "ITU_R_601_4";
+    };
+}
+Codec: 1635148593
+kCMVideoCodecType_H264
+================================================
+AVAssetExportPreset3840x2160
+{
+    Audio =     {
+        audioPreset = "Preset_AAC_48kHz_256kbit";
+    };
+    Video =     {
+        colorPrimaries = "ITU_R_709_2";
+        entropyMode = CABAC;
+        frameDurationTimeScale = 30;
+        frameDurationValue = 1;
+        frameReordering = 1;
+        keyFrameInterval = 30;
+        maxHeight = 2160;
+        maxWidth = 3840;
+        profileLevel = "H264_High_AutoLevel";
+        transferFunction = "ITU_R_709_2";
+        usageMode = 0;
+        videoAverageBitRate = 25000000;
+        videoCodec = 1635148593;
+        videoMatrixHandling = ApplyRotation;
+        ycbcrMatrix = "ITU_R_709_2";
+    };
+}
+Codec: 1635148593
+kCMVideoCodecType_H264
+================================================
+AVAssetExportPresetAppleM4VAppleTV
+{
+    Audio =     {
+        audioPreset = "Preset_AAC_48kHz_Stereo_256kbit";
+    };
+    Video =     {
+        colorPrimaries = "ITU_R_709_2";
+        dataRateLimitBytes = 1750000;
+        dataRateLimitDuration = 1;
+        frameDurationTimeScale = 30;
+        frameDurationValue = 1;
+        frameReordering = 1;
+        keyFrameInterval = 30;
+        maxFrameRate = 30;
+        maxHeight = 540;
+        maxWidth = 960;
+        profileLevel = "H264_Main_3_1";
+        transferFunction = "ITU_R_709_2";
+        usageMode = 7;
+        videoAverageBitRate = 5242880;
+        videoCodec = 1635148593;
+        videoMatrixHandling = ApplyRotation;
+        ycbcrMatrix = "ITU_R_709_2";
+    };
+}
+Codec: 1635148593
+kCMVideoCodecType_H264
+================================================
+AVAssetExportPresetAppleM4V720pHD
+{
+    Audio =     {
+        audioPreset = "Preset_AAC_48kHz_Stereo_160kbit";
+    };
+    Video =     {
+        colorPrimaries = "ITU_R_709_2";
+        dataRateLimitBytes = 2500000;
+        dataRateLimitDuration = 1;
+        frameDurationTimeScale = 30;
+        frameDurationValue = 1;
+        frameReordering = 1;
+        keyFrameInterval = 30;
+        maxFrameRate = 30;
+        maxHeight = 720;
+        maxWidth = 1280;
+        profileLevel = "H264_Main_3_1";
+        transferFunction = "ITU_R_709_2";
+        usageMode = 7;
+        videoAverageBitRate = 7340032;
+        videoCodec = 1635148593;
+        videoMatrixHandling = PreserveMatrix;
+        ycbcrMatrix = "ITU_R_709_2";
+    };
+}
+Codec: 1635148593
+kCMVideoCodecType_H264
+================================================
+AVAssetExportPreset960x540
+{
+    Audio =     {
+        audioPreset = "Preset_AAC_48kHz_256kbit";
+    };
+    Video =     {
+        colorPrimaries = "ITU_R_709_2";
+        frameDurationTimeScale = 30;
+        frameDurationValue = 1;
+        frameReordering = 1;
+        keyFrameInterval = 30;
+        maxHeight = 540;
+        maxWidth = 960;
+        profileLevel = "H264_Main_AutoLevel";
+        transferFunction = "ITU_R_709_2";
+        usageMode = 0;
+        videoAverageBitRate = 5242880;
+        videoCodec = 1635148593;
+        videoMatrixHandling = ApplyRotation;
+        ycbcrMatrix = "ITU_R_709_2";
+    };
+}
+Codec: 1635148593
+kCMVideoCodecType_H264
+================================================
+AVAssetExportPresetAppleM4A
+{
+    Audio =     {
+        audioPreset = "Preset_AAC_48kHz_Stereo_256kbit";
+    };
+    Video =     {
+        videoCodec = 1851876449;
+    };
+}
+Codec: 1851876449
+================================================
+AVAssetExportPresetAppleProRes422LPCM
+{
+    Audio =     {
+        audioPreset = "Preset_LPCM";
+    };
+    Video =     {
+        usageMode = 0;
+        videoCodec = 1634755438;
+        videoMatrixHandling = ApplyRotation;
+    };
+}
+Codec: 1634755438
+kCMVideoCodecType_AppleProRes422
+================================================
+uti types available for presets
+{
+    AVAssetExportPreset1280x720 =     (
+        "com.apple.quicktime-movie",
+        "public.mpeg-4"
+    );
+    AVAssetExportPreset1920x1080 =     (
+        "com.apple.quicktime-movie",
+        "public.mpeg-4"
+    );
+    AVAssetExportPreset3840x2160 =     (
+        "com.apple.quicktime-movie",
+        "public.mpeg-4"
+    );
+    AVAssetExportPreset640x480 =     (
+        "com.apple.quicktime-movie",
+        "public.mpeg-4"
+    );
+    AVAssetExportPreset960x540 =     (
+        "com.apple.quicktime-movie",
+        "public.mpeg-4"
+    );
+    AVAssetExportPresetAVCHD =     (
+        "com.apple.quicktime-movie"
+    );
+    AVAssetExportPresetAppPreview =     (
+        "com.apple.quicktime-movie"
+    );
+    AVAssetExportPresetAppleM4A =     (
+        "com.apple.m4a-audio"
+    );
+    AVAssetExportPresetAppleM4V1080pHD =     (
+        "com.apple.m4v-video"
+    );
+    AVAssetExportPresetAppleM4V480pSD =     (
+        "com.apple.m4v-video"
+    );
+    AVAssetExportPresetAppleM4V720pHD =     (
+        "com.apple.m4v-video"
+    );
+    AVAssetExportPresetAppleM4VAppleTV =     (
+        "com.apple.m4v-video"
+    );
+    AVAssetExportPresetAppleM4VAppleTVHD =     (
+        "com.apple.m4v-video"
+    );
+    AVAssetExportPresetAppleM4VCellular =     (
+        "com.apple.m4v-video"
+    );
+    AVAssetExportPresetAppleM4VWiFi =     (
+        "com.apple.m4v-video"
+    );
+    AVAssetExportPresetAppleM4ViPod =     (
+        "com.apple.m4v-video"
+    );
+    AVAssetExportPresetAppleProRes422LPCM =     (
+        "com.apple.quicktime-movie"
+    );
+    AVAssetExportPresetICPL =     (
+        "public.mpeg-4"
+    );
+    AVAssetExportPresetICPLHD =     (
+        "public.mpeg-4"
+    );
+    AVAssetExportPresetICPLProxy =     (
+        "public.mpeg-4"
+    );
+    AVAssetExportPresetICPLProxyHD =     (
+        "public.mpeg-4"
+    );
+    AVAssetExportPresetMessage =     (
+        "com.apple.quicktime-movie"
+    );
+    AVAssetExportPresetMessageAudio =     (
+        "com.apple.m4a-audio"
+    );
+    "AVAssetExportPresetMessage_16x9" =     (
+        "com.apple.quicktime-movie"
+    );
+    AVAssetExportPresetPassthrough =     (
+        "com.apple.quicktime-movie",
+        "com.apple.m4a-audio",
+        "public.mpeg-4",
+        "com.apple.m4v-video",
+        "org.3gpp.adaptive-multi-rate-audio",
+        "com.microsoft.waveform-audio",
+        "public.aiff-audio",
+        "public.aifc-audio",
+        "com.apple.coreaudio-format"
+    );
+    AVAssetExportPresetPhotoStream =     (
+        "public.mpeg-4"
+    );
+    AVAssetExportPresetPhotoStreamHD =     (
+        "public.mpeg-4"
+    );
+}
