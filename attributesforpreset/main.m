@@ -24,6 +24,48 @@ static void printNSString(NSString *string)
     printf("%s\n", [string cStringUsingEncoding:NSUTF8StringEncoding]);
 }
 
+static void printCVPixelBufferStringConstants()
+{
+    printf("===================================================\n");
+    printf("CVPixelBuffer string constants. \n");
+    printNSString(@"kCVPixelBufferPixelFormatTypeKey");
+    printNSString((NSString *)kCVPixelBufferPixelFormatTypeKey);
+    printNSString(@"kCVPixelBufferMemoryAllocatorKey");
+    printNSString((NSString *)kCVPixelBufferMemoryAllocatorKey);
+    printNSString(@"kCVPixelBufferWidthKey");
+    printNSString((NSString *)kCVPixelBufferWidthKey);
+    printNSString(@"kCVPixelBufferCGBitmapContextCompatibilityKey");
+    printNSString((NSString *)kCVPixelBufferCGBitmapContextCompatibilityKey);
+    printNSString(@"Format of CVPixelBuffer string constants is unvarying");
+}
+
+static void printAVFoundationVideoSettingsKeysAndValues()
+{
+    printf("===================================================\n");
+    printf("AVFoundation video settings string constants. \n");
+    printNSString(@"AVVideoCodecKey");
+    printNSString(AVVideoCodecKey);
+    printNSString(@"AVVideoCodecH264");
+    printNSString(AVVideoCodecH264);
+    printNSString(@"AVVideoCodecJPEG");
+    printNSString(AVVideoCodecJPEG);
+    printNSString(@"AVVideoCodecAppleProRes4444");
+    printNSString(AVVideoCodecAppleProRes4444);
+    printNSString(@"AVVideoCodecAppleProRes422");
+    printNSString(AVVideoCodecAppleProRes422);
+    printNSString(@"AVVideoWidthKey");
+    printNSString(AVVideoWidthKey);
+    printNSString(@"AVVideoProfileLevelKey");
+    printNSString(AVVideoProfileLevelKey);
+    printNSString(@"AVVideoProfileLevelH264Baseline41");
+    printNSString(AVVideoProfileLevelH264Baseline41);
+    printNSString(@"AVVideoProfileLevelH264Main32");
+    printNSString(AVVideoProfileLevelH264Main32);
+    printNSString(@"AVVideoPixelAspectRatioKey");
+    printNSString(AVVideoPixelAspectRatioKey);
+    printNSString(@"AVVideoCleanApertureWidthKey");
+    printNSString(AVVideoCleanApertureWidthKey);
+}
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -84,6 +126,9 @@ int main(int argc, const char * argv[]) {
         printf("uti types available for presets\n");
         NSArray *utTypes = [AVAssetExportSession _utTypesForPresets];
         printNSString(utTypes.description);
+        
+        printCVPixelBufferStringConstants();
+        printAVFoundationVideoSettingsKeysAndValues();
 /*      // Passthrough returns nil for settings.
         NSDictionary *setting;
         setting = [AVAssetExportSession _settingForPreset:AVAssetExportPresetPassthrough];
